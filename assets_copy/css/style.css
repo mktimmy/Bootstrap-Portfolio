@@ -76,7 +76,7 @@ li {
 
 .Main_Content {
     margin: 0 auto;
-    width: 80%;   
+    
     /*background-color: white;   */
     padding: 15px;
     /*border: 1px solid lightgrey;*/
@@ -109,7 +109,7 @@ p {
 }
 
 footer {
-        position: absolute;
+        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
@@ -183,6 +183,7 @@ div {
 
 .container-block {
     background-color: white!important;  
+    width: 100%;
 }
 
 .element{
@@ -210,7 +211,8 @@ div {
 /********* portfolio.html - Bootstrap **********/
 
    .card {
-    display: inline block;
+    float: left;
+    margin: 20px;
    }
 
 
